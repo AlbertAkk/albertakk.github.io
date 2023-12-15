@@ -1360,6 +1360,7 @@ $beige: #ece7e4;
         display: flex;
         justify-content: space-between;
         margin-bottom: 50px;
+        padding: 20px 0;
 
         &:nth-child(even) {
           flex-direction: row-reverse;
@@ -1381,6 +1382,7 @@ $beige: #ece7e4;
           margin: 0 auto;
           padding: 0 50px;
           align-items: center;
+          font-size: 18x;
           font-family: 'Montserrat Alternates', sans-serif;
         }
       }
@@ -1895,6 +1897,10 @@ $beige: #ece7e4;
           align-items: center;
           .projectPageBackgr {
             margin-right: 10px;
+          }
+          .projectPageDesc {
+            font-size: 14px;
+            line-height: 18px;
           }
         }
       }
