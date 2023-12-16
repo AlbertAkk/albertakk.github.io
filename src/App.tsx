@@ -10,6 +10,7 @@ export const App = () => {
   const basename = process.env.NODE_ENV === 'prod' ? envVar : '/'
   console.log(envVar)
   console.log(basename)
+  console.log(process.env.PUBLIC_URL)
 
   return (
     <BrowserRouter basename={basename}>
