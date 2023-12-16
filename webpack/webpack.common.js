@@ -21,7 +21,7 @@ const cssLoaders = (extra) => {
 }
 
 module.exports = {
-  entry: path.resolve(__dirname, '..', './index.tsx'),
+  entry: path.resolve(__dirname, '..', './src/index.tsx'),
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
@@ -60,7 +60,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '..', './build'),
     filename: '[name].[hash].js',
-    publicPath: '/architecture/',
+    publicPath: '/',
   },
   devServer: {
     historyApiFallback: true,

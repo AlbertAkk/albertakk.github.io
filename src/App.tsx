@@ -7,7 +7,7 @@ import ProjectPage from './pages/ProjectPage'
 
 export const App = () => {
   return (
-    <HashRouter basename="/architecture">
+    <HashRouter basename="/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
