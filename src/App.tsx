@@ -13,7 +13,7 @@ export const App = () => {
   // console.log(process.env.PUBLIC_URL)
 
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/architecture">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
