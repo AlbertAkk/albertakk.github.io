@@ -6,8 +6,7 @@ import ProjectsComp from './pages/ProjectsComp'
 import ProjectPage from './pages/ProjectPage'
 
 export const App = () => {
-  const envVar =
-    process.env.PUBLIC_URL || 'https://albertakk.github.io/architecture/'
+  const envVar = process.env.PUBLIC_URL || '/architecture'
   const basename = process.env.NODE_ENV === 'production' ? envVar : '/'
   console.log(envVar)
   console.log(basename)
