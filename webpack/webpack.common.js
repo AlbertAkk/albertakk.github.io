@@ -60,7 +60,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '..', './build'),
     filename: '[name].[hash].js',
-    publicPath: '/',
+    publicPath: '/albertakk.github.io',
   },
   devServer: {
     historyApiFallback: true,
