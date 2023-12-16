@@ -6,12 +6,6 @@ import ProjectsComp from './pages/ProjectsComp'
 import ProjectPage from './pages/ProjectPage'
 
 export const App = () => {
-  // const envVar = process.env.PUBLIC_URL || '/architecture'
-  // const basename = process.env.NODE_ENV === 'prod' ? envVar : '/'
-  // console.log(envVar)
-  // console.log(basename)
-  // console.log(process.env.PUBLIC_URL)
-
   return (
     <HashRouter basename="/architecture">
       <Routes>
