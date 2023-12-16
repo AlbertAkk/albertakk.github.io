@@ -6,9 +6,8 @@ import ProjectsComp from './pages/ProjectsComp'
 import ProjectPage from './pages/ProjectPage'
 
 export const App = () => {
-  const basename =
-    process.env.NODE_ENV === 'production' ? process.env.PUBLIC_URL : '/'
-
+  const envVar = process.env.PUBLIC_URL || '/'
+  const basename = process.env.NODE_ENV === 'production' ? envVar : '/'
   return (
     <BrowserRouter basename={basename}>
       <Routes>
