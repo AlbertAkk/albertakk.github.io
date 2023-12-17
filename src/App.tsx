@@ -7,7 +7,7 @@ import ProjectPage from './pages/ProjectPage'
 
 export const App = () => {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/albertakk.github.io">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
