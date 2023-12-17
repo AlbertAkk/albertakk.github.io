@@ -6,8 +6,10 @@ import ProjectsComp from './pages/ProjectsComp'
 import ProjectPage from './pages/ProjectPage'
 
 export const App = () => {
+  console.log('here')
+
   return (
-    <HashRouter basename="/albertakk.github.io">
+    <HashRouter basename="/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
